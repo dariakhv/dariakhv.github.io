@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "portfolio/listings.html",
+    "href": "portfolio/listings.html",
+    "title": "Extended Portfolio",
+    "section": "",
+    "text": "Pharmaceutical Spending Dashboard\n\n\n\n\n\n\ndash\n\n\ndashboard\n\n\n\n\n\n\n\n\n\nMar 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGoodreads Data Analytics\n\n\n\n\n\n\nAPI\n\n\nshiny\n\n\n\n\n\n\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nsalesanalyzer Python Package\n\n\n\n\n\n\nPyPI\n\n\nci-cd\n\n\npytest\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNYC Airbnb Listings Popularity Prediction\n\n\n\n\n\n\nMachine Learning\n\n\nRegression\n\n\nFeature Engineering\n\n\nSHAP\n\n\n\n\n\n\n\n\n\nDec 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWine Chromatic Profile Classification\n\n\n\n\n\n\nDocker\n\n\nMachine Learning\n\n\nLogistic Regression\n\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "portfolio/projects/goodreads.html#contributors",
+    "href": "portfolio/projects/goodreads.html#contributors",
+    "title": "Goodreads Data Analytics",
+    "section": "Contributors",
+    "text": "Contributors\nDaria Khon"
+  },
+  {
+    "objectID": "portfolio/projects/airbnb.html#project-overview",
+    "href": "portfolio/projects/airbnb.html#project-overview",
+    "title": "NYC Airbnb Listings Popularity Prediction",
+    "section": "Project Overview",
+    "text": "Project Overview\nThis project compares different machine learning regression models to predict the popularity of New York City Airbnb listings (as measured by reviews per month) using data from the NYC Airbnb Open Data (2019). By analyzing features such as location, minimum nights, availability, and host attributes, we seek to provide insights that help Airbnb hosts optimize their listings.\n\nMotivation\n\nHosts can better tailor their listings to increase engagement and bookings.\n\nTravelers benefit from more accurate representation of popular neighborhoods and room types.\n\nData enthusiasts can explore additional feature engineering or modeling techniques to enhance predictive performance.\n\n\n\nData\n\nSource: Kaggle – New York City Airbnb Open Data (2019)\n\nFeatures: Includes listing location (latitude, longitude, neighborhood group), property attributes (room type, price), availability, and textual descriptions (e.g., listing names).\n\nTarget: reviews_per_month – serves as a proxy metric for listing popularity."
+  },
+  {
+    "objectID": "portfolio/projects/airbnb.html#preprocessing-feature-engineering",
+    "href": "portfolio/projects/airbnb.html#preprocessing-feature-engineering",
+    "title": "NYC Airbnb Listings Popularity Prediction",
+    "section": "Preprocessing & Feature Engineering",
+    "text": "Preprocessing & Feature Engineering\n\nHandled missing values for reviews_per_month (tied to zero number_of_reviews).\n\nExtracted month from the last_review date to capture seasonal patterns.\n\nPerformed VADER sentiment analysis on the name feature to gauge the listing’s textual sentiment."
+  },
+  {
+    "objectID": "portfolio/projects/airbnb.html#regression-models",
+    "href": "portfolio/projects/airbnb.html#regression-models",
+    "title": "NYC Airbnb Listings Popularity Prediction",
+    "section": "Regression Models",
+    "text": "Regression Models\nA variety of regression models were trained and evaluated:\n\nBaseline\n\nDummyRegressor: Predicts the mean of the target; used as a simple reference.\n\nLinear Models\n\nRidge / Elastic Net: Simple and interpretable, with built-in regularization.\n\nEnsemble Methods\n\nRandom Forest Regressor: Good for capturing non-linearities but can overfit.\n\nLightGBM (LGBM) Regressor: Gradient boosting framework known for efficiency and strong performance."
+  },
+  {
+    "objectID": "portfolio/projects/airbnb.html#hyperparameter-tuning-evaluation",
+    "href": "portfolio/projects/airbnb.html#hyperparameter-tuning-evaluation",
+    "title": "NYC Airbnb Listings Popularity Prediction",
+    "section": "Hyperparameter Tuning & Evaluation",
+    "text": "Hyperparameter Tuning & Evaluation\n\nCross-Validation: Used to assess model generalizability.\n\nRandomizedSearchCV: Explored key hyperparameters such as max_depth, learning_rate, and regularization coefficients.\n\nPerformance Metrics:\n\nR² (coefficient of determination) for explanatory power.\n\nMean Absolute Error (MAE) or Mean Squared Error (MSE) for accuracy in predictions."
+  },
+  {
+    "objectID": "portfolio/projects/airbnb.html#key-results",
+    "href": "portfolio/projects/airbnb.html#key-results",
+    "title": "NYC Airbnb Listings Popularity Prediction",
+    "section": "Key Results",
+    "text": "Key Results\n\nBest Model: LightGBM (LGBM) with parameters (learning_rate=0.05, max_depth=50, n_estimators=200).\n\nCross-Validation R²: ~0.66\n\nTest Set R²: ~0.69\n\nThe small gap between CV and test R² indicates the model generalizes well."
+  },
+  {
+    "objectID": "portfolio/projects/airbnb.html#contributors",
+    "href": "portfolio/projects/airbnb.html#contributors",
+    "title": "NYC Airbnb Listings Popularity Prediction",
+    "section": "Contributors",
+    "text": "Contributors\nDaria Khon, Farhan Bin Faisal, Brian Chang, Jay Mangat"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daria Khon",
+    "section": "",
+    "text": "I’m a Project Manager with 3+ years of experience in the biotechnology space. I am passionate about the intersection of data and biology, and believe that great tools drive efficient research loop — from state-of-the-art pipettes to cutting-edge computational models. Soon to hold a Master’s in Data Science, I’m dedicated to equipping the biotech space with the tools it needs to push boundaries.\nOutside of work, I enjoy reading, writing about books, playing volleyball, and exploring new cafes and restaurants."
+  },
+  {
+    "objectID": "index.html#hello-im-daria",
+    "href": "index.html#hello-im-daria",
+    "title": "Daria Khon",
+    "section": "",
+    "text": "I’m a Project Manager with 3+ years of experience in the biotechnology space. I am passionate about the intersection of data and biology, and believe that great tools drive efficient research loop — from state-of-the-art pipettes to cutting-edge computational models. Soon to hold a Master’s in Data Science, I’m dedicated to equipping the biotech space with the tools it needs to push boundaries.\nOutside of work, I enjoy reading, writing about books, playing volleyball, and exploring new cafes and restaurants."
+  },
+  {
+    "objectID": "index.html#work-experience",
+    "href": "index.html#work-experience",
+    "title": "Daria Khon",
+    "section": "Work Experience",
+    "text": "Work Experience\nSTEMCELL Technologies\n\nSenior Custom Product Program Associate (Jan 2024 - Jun 2024)\nSenior Operations Management Program Associate (Aug 2023 - Jan 2024)\nManufacturing Operations Coordinator (May 2021 - Aug 2023)"
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Daria Khon",
+    "section": "Projects",
+    "text": "Projects\nPharmaceutical Spending Dashboard | Dash  Built an interactive dashboard with Dash for visualizing pharmaceutical drug spending across the world.\nsalesanalyzer Python Package | PyPI, pytest, ci-cd  Co-authored a python package to assist small businesses with sales data analysis\nNYC Airbnb Listing Popularity Predictor | Regression, Feature Engineering, SHAP  Built an end-to-end data science pipeline for predicting Airbnb’s listing popularity with multiple regression models (Ridge, LightGBM, RandomForest), incorporating explainability with SHAP.\nWine Chormatic Profile Predictor | Docker, Logistic Regression, Quarto Report  Built ETL reproducible data science pipeline with Docker and Makefile for classifying wine color based on its physiochemical properties.\nGoodreads Data Explorer | GoogleBooks API, Shiny  Developed a plugin-based data dashboard for personalized reading analytics using Goodreads account exports."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Daria Khon",
+    "section": "Education",
+    "text": "Education\nMaster of Data Science | The University of British Columbia | Completion June 2025  Bachelor of Applied Science in Chemical and Biological Engineerng | The University of British Columbia | May 2021"
+  },
+  {
+    "objectID": "portfolio/projects/wine.html#contributors",
+    "href": "portfolio/projects/wine.html#contributors",
+    "title": "Wine Chromatic Profile Classification",
+    "section": "Contributors",
+    "text": "Contributors\nDaria Khon, Farhan Bin Faisal, Adrian Leung, Zhiwei Zhang"
+  },
+  {
+    "objectID": "portfolio/projects/pharmaspend.html#about",
+    "href": "portfolio/projects/pharmaspend.html#about",
+    "title": "Pharmaceutical Spending Dashboard",
+    "section": "About",
+    "text": "About\nWe created an intuitive tool to help healthcare policy administrators across the world to make knowlegeable decisions around drug price policies. This dashboard takes in the scattered worldwide information and presents it as a decision-ready intelligence for daily decision-making.\nThis project is based on Kaggle Pharmaceutical Drug Spending by countries data set, which originated from Organisation for Economic Co-operation and Development (OECD) collected data. With the data capped at 2016, this dashboard architechture can be easily integrated into a new data set."
+  },
+  {
+    "objectID": "portfolio/projects/pharmaspend.html#dashboard-overview",
+    "href": "portfolio/projects/pharmaspend.html#dashboard-overview",
+    "title": "Pharmaceutical Spending Dashboard",
+    "section": "Dashboard Overview",
+    "text": "Dashboard Overview\nPharmaceutical Spending Dashboard is hosted on the Render platform, and can be accessed here\n\nComponents\n\nChoropleth Map (Top): Displays geographic distribution of spending.\nTime Series Chart (Bottom Left): Shows spending trends over time.\nBar Graph (Bottom Right): Breaks down overall spending by countries.\nSummary statistics\n\n\n\nInteractions\nThe user can customize the view of the dashboard by interacting with: - Global filters: Country and year selectors apply to all charts and summary statistics, keeping the dashboard focused on the selected region and time period. - Local filters: Radio buttons allow users to choose the specific spending metric they want to explore, which will apply to all charts. - All charts have tooltips to provide additional information about the data, which will be displayed upon hovering over the chart element of interest.\n\n\nDemo"
+  },
+  {
+    "objectID": "portfolio/projects/pharmaspend.html#contributors",
+    "href": "portfolio/projects/pharmaspend.html#contributors",
+    "title": "Pharmaceutical Spending Dashboard",
+    "section": "Contributors",
+    "text": "Contributors\nJason Lee, Celine Habashy, Daria Khon, Catherine Meng"
+  },
+  {
+    "objectID": "portfolio/projects/salesanalyzer.html#about",
+    "href": "portfolio/projects/salesanalyzer.html#about",
+    "title": "salesanalyzer Python Package",
+    "section": "About",
+    "text": "About\nA Python package designed to simplify retail sales data analysis for small to medium-sized businesses. This tool offers a set of pre-built functions that make it easy to identify market segments, predict future sales, and analyze seasonal revenue trends."
+  },
+  {
+    "objectID": "portfolio/projects/salesanalyzer.html#why-salesanalyzer",
+    "href": "portfolio/projects/salesanalyzer.html#why-salesanalyzer",
+    "title": "salesanalyzer Python Package",
+    "section": "Why salesanalyzer?",
+    "text": "Why salesanalyzer?\nSmall to medium-sized businesses (SMBs) often lack the resources for in-house data teams or complex analytics tools. sales_analyzer is here to bridge that gap by providing easy-to-use, specialized functions that allow businesses to extract valuable insights from their sales data without requiring deep expertise in data science.\n\nKey Benefits:\n\nTailored for SMBs: No need for expensive or complex tools. Our package is designed specifically for small to medium-sized businesses to help them make data-driven decisions with ease.\nEasy-to-use functions: Simple, pre-built functions for common retail sales tasks so you can get started right away.\nCost-effective: Instead of hiring a full-time data analytics team or paying for expensive software, this package offers an affordable, one-stop solution to meet your business’s analytical needs.\nActionable Insights: Gain a better understanding of your market segments and sales trends, which can inform inventory management, marketing strategies, and customer outreach."
+  },
+  {
+    "objectID": "portfolio/projects/salesanalyzer.html#functions",
+    "href": "portfolio/projects/salesanalyzer.html#functions",
+    "title": "salesanalyzer Python Package",
+    "section": "Functions",
+    "text": "Functions\n\nsegment_revenue_share: Segments products into three categories: cheap, medium, expensive, based on price, and calculates their respective share in total revenue.\npredictSales: Predicts future sales based on the provided historical data and the target.\nsales_summary_statistics: Calculates a variety of summary statistics that provide insights into overall sales performance, customer behavior, and product performance."
+  },
+  {
+    "objectID": "portfolio/projects/salesanalyzer.html#contributors",
+    "href": "portfolio/projects/salesanalyzer.html#contributors",
+    "title": "salesanalyzer Python Package",
+    "section": "Contributors",
+    "text": "Contributors\nDaria Khon, Yeji Sogn, Franklin Aryee"
+  }
+]
