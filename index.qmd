@@ -1,5 +1,0 @@
----
-title: "Daria's Corner"
----
-
-Welcome to the landing page of my website. Stay tuned for more updates!
