@@ -1,0 +1,47 @@
+/* css styles */
+body {
+  background-color: #f9f9f9; /* Light background */
+  color: #333333; /* Dark text */
+  font-family: Arial, sans-serif;
+}
+
+
+.quarto-grid-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  } 
+  
+.quarto-grid-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+  
+  /* Thumbnail images */
+  .quarto-grid-item img { */
+    max-width: 100%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+
+  #about-block {
+    text-align: left;
+  }
+  
+  #about-block .links a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+
+  h2, h3, h4, p, li {
+    text-align: left;
+  } 
+
+  p, li {
+    color: #555; 
+  }
+
