@@ -4,7 +4,7 @@
     "href": "portfolio/listings.html",
     "title": "Extended Portfolio",
     "section": "",
-    "text": "Pharmaceutical Spending Dashboard\n\n\n\n\n\n\ndash\n\n\ndashboard\n\n\n\n\n\n\n\n\n\nMar 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGoodreads Data Analytics\n\n\n\n\n\n\nAPI\n\n\nshiny\n\n\n\n\n\n\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nsalesanalyzer Python Package\n\n\n\n\n\n\nPyPI\n\n\nci-cd\n\n\npytest\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNYC Airbnb Listings Popularity Prediction\n\n\n\n\n\n\nMachine Learning\n\n\nRegression\n\n\nFeature Engineering\n\n\nSHAP\n\n\n\n\n\n\n\n\n\nDec 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWine Chromatic Profile Classification\n\n\n\n\n\n\nDocker\n\n\nMachine Learning\n\n\nLogistic Regression\n\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Automated Medical Image Segmentation for Orthopedic Surgery\n\n\n\n\n\n\nsemantic segmentation\n\n\nunet\n\n\ndash\n\n\ngcp\n\n\n\n\n\n\n\n\n\nJun 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPharmaceutical Spending Dashboard\n\n\n\n\n\n\ndash\n\n\ndashboard\n\n\n\n\n\n\n\n\n\nMar 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGoodreads Data Analytics\n\n\n\n\n\n\nAPI\n\n\nshiny\n\n\n\n\n\n\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nsalesanalyzer Python Package\n\n\n\n\n\n\nPyPI\n\n\nci-cd\n\n\npytest\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNYC Airbnb Listings Popularity Prediction\n\n\n\n\n\n\nMachine Learning\n\n\nRegression\n\n\nFeature Engineering\n\n\nSHAP\n\n\n\n\n\n\n\n\n\nDec 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWine Chromatic Profile Classification\n\n\n\n\n\n\nDocker\n\n\nMachine Learning\n\n\nLogistic Regression\n\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "portfolio/projects/goodreads.html#contributors",
@@ -56,39 +56,60 @@
     "text": "Contributors\nDaria Khon, Farhan Bin Faisal, Brian Chang, Jay Mangat"
   },
   {
+    "objectID": "portfolio/projects/medicalsegmentation.html",
+    "href": "portfolio/projects/medicalsegmentation.html",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "",
+    "text": "The data product is a dashboard designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:\n\nUploading volumetric CT scans\nPreviewing 2D slices in medical standard “3-pane” view\nRunning AI segmentation model inference\nChecking quality of segmentation via mask overlay\nReconstructing 3D STL object\nDownloading desired segments with reporting and dashboard state metadata\nReproducing results by re-uploading past segmentations\n\n\n\n\nDashboard main segmentation tab layout\n\n\nOne of the key strengths of our products is its ease of use and modularity. The dashboard leverages Dash’s capabilities for web deployment, either locally or on the cloud, and provides intuitive usability without requiring Python proficiency. The modular design on frontend and backend allows for future updates to the segmentation pipeline, permitting an easy integration of other open-source or in-house AI models. Overall, our product supports long-term maintenance, reduces operational cost and case turnaround times.\nHowever, the dashboard does have limitations compared to the existing platforms like 3D Slicer. Main limitations come from the lack of built-in annotation features, measurement tools, and volumetric analysis functions. Furthermore, the quality of segmentation is entirely dependent on the performance of the AI model, with no interface to adjust inference parameters. While the TotalSegmentation shows 0.94 DICE score for adults, inference on the pediatric bones could be less precise. Manual corrections or enhancements therefore are needed, and will need to be done externally outside of our product’s interface. While adding annotation and volumetric analysis features is feasible in future iterations, incorporating 3D STL reconstruction from annotated regions may present challenges due to limitations in the Plotly rendering architecture, particularly in preserving mesh integrity and resolution during dynamic interactions."
+  },
+  {
+    "objectID": "portfolio/projects/medicalsegmentation.html#produc-overview",
+    "href": "portfolio/projects/medicalsegmentation.html#produc-overview",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "",
+    "text": "The data product is a dashboard designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:\n\nUploading volumetric CT scans\nPreviewing 2D slices in medical standard “3-pane” view\nRunning AI segmentation model inference\nChecking quality of segmentation via mask overlay\nReconstructing 3D STL object\nDownloading desired segments with reporting and dashboard state metadata\nReproducing results by re-uploading past segmentations\n\n\n\n\nDashboard main segmentation tab layout\n\n\nOne of the key strengths of our products is its ease of use and modularity. The dashboard leverages Dash’s capabilities for web deployment, either locally or on the cloud, and provides intuitive usability without requiring Python proficiency. The modular design on frontend and backend allows for future updates to the segmentation pipeline, permitting an easy integration of other open-source or in-house AI models. Overall, our product supports long-term maintenance, reduces operational cost and case turnaround times.\nHowever, the dashboard does have limitations compared to the existing platforms like 3D Slicer. Main limitations come from the lack of built-in annotation features, measurement tools, and volumetric analysis functions. Furthermore, the quality of segmentation is entirely dependent on the performance of the AI model, with no interface to adjust inference parameters. While the TotalSegmentation shows 0.94 DICE score for adults, inference on the pediatric bones could be less precise. Manual corrections or enhancements therefore are needed, and will need to be done externally outside of our product’s interface. While adding annotation and volumetric analysis features is feasible in future iterations, incorporating 3D STL reconstruction from annotated regions may present challenges due to limitations in the Plotly rendering architecture, particularly in preserving mesh integrity and resolution during dynamic interactions."
+  },
+  {
+    "objectID": "portfolio/projects/medicalsegmentation.html#design-considerations",
+    "href": "portfolio/projects/medicalsegmentation.html#design-considerations",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "Design Considerations",
+    "text": "Design Considerations\nA central design choice was the adoption of a 4-pane layout that mirrors the standard way of viewing medical images. Three of the panes (bottom left, bottom right, and top right) display 2D slices in axial, coronal, and sagittal views, while the top left pane shows the reconstructed 3D object. To maximize workspace, the instruction panel on the left is collapsible via a hamburger button (top left), allowing the 4-pane view to occupy the full screen, aiding a more focused clinical review.\nAnother design consideration was to include restriction of viewing segmentation overlays (in green) for one bone class at a time, in order to prevent visual clutter, and maximize interpretability of the segmentation quality on a per-bone basis. The overlay opacity is controlled by a slider in the “Settings” tab. The “Reduce mesh by” parameter controls the resolution complexity of the 3D figure, reducing the number of faces, which is useful for minimizing file size or preparing the mesh for rapid prototyping. The “Smooth surface” parameter enables control over the interpolation of voxel boundaries, allowing for smoother and more anatomically realistic surfaces.\nSince generation of the 3D STL output is a bit of a manual process - the engineers must decide how to “connect” individual voxels in the 3D space by a mesh - we included two key adjustable parameters, also found in the “Settings tab”.\n\n\n\nDashboard settings tab with mask opacity and STL parameter settings\n\n\nReproducibility was another critical design element for clinical context usability. Therefore, we added a separate “Reload” tab to allow users to reload past segmentation results, reinstating the dashboard, thus enabling result validation and creating an audit trail. The “Reload” tab mirrors the main “Segment” tab layout, reinforcing interface consistency."
+  },
+  {
+    "objectID": "portfolio/projects/medicalsegmentation.html#attributions",
+    "href": "portfolio/projects/medicalsegmentation.html#attributions",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "Attributions",
+    "text": "Attributions\n\nThis Project was in partnership with BC Children’s Hospital Digital Lab.\nData: Wasserthal, J., Breit, H.-C., Meyer, M.T., Pradella, M., Hinck, D., Sauter, A.W., Heye, T., Boll, D., Cyriac, J., Yang, S., Bach, M., Segeroth, M., 2023. TotalSegmentator: Robust Segmentation of 104 Anatomic Structures in CT Images. Radiology: Artificial Intelligence. https://doi.org/10.1148/ryai.230024"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Daria Khon",
     "section": "",
-    "text": "I’m a Project Manager with 3+ years of experience in the biotechnology space. I am passionate about the intersection of data and biology, and believe that great tools drive efficient research loop — from state-of-the-art pipettes to cutting-edge computational models. Soon to hold a Master’s in Data Science, I’m dedicated to equipping the biotech space with the tools it needs to push boundaries.\nOutside of work, I enjoy reading, writing about books, playing volleyball, and exploring new cafes and restaurants."
+    "text": "Taking the complex and making it routine\nI am a biotech project manager turned data scientist with 3+ years of experience in building practical, scalable tools for scientific teams to move faster and smarter.\nStreamlining product launches  |  Deploying AI models | Building scalable systems\nExplore My Portfolio"
   },
   {
     "objectID": "index.html#hello-im-daria",
     "href": "index.html#hello-im-daria",
     "title": "Daria Khon",
     "section": "",
-    "text": "I’m a Project Manager with 3+ years of experience in the biotechnology space. I am passionate about the intersection of data and biology, and believe that great tools drive efficient research loop — from state-of-the-art pipettes to cutting-edge computational models. Soon to hold a Master’s in Data Science, I’m dedicated to equipping the biotech space with the tools it needs to push boundaries.\nOutside of work, I enjoy reading, writing about books, playing volleyball, and exploring new cafes and restaurants."
+    "text": "Taking the complex and making it routine\nI am a biotech project manager turned data scientist with 3+ years of experience in building practical, scalable tools for scientific teams to move faster and smarter.\nStreamlining product launches  |  Deploying AI models | Building scalable systems\nExplore My Portfolio"
   },
   {
-    "objectID": "index.html#work-experience",
-    "href": "index.html#work-experience",
+    "objectID": "index.html#what-i-bring-to-the-table",
+    "href": "index.html#what-i-bring-to-the-table",
     "title": "Daria Khon",
-    "section": "Work Experience",
-    "text": "Work Experience\nSTEMCELL Technologies\n\nSenior Custom Product Program Associate (Jan 2024 - Jun 2024)\nSenior Operations Management Program Associate (Aug 2023 - Jan 2024)\nManufacturing Operations Coordinator (May 2021 - Aug 2023)"
+    "section": "What I Bring to the Table",
+    "text": "What I Bring to the Table\n\n\n🔍 Critical Thinker & Fast Learner\nI adapt quickly in fast-paced environments and pick up complex technical skills with speed.\nExamples:\n\nIn just 2 months, I mapped clinical engineers’ workflows to a user-focused medical image segmentation dashboard using a U-Net model, delivering real-time inference for bone segmentations, 3D visualization, and full deployment on GCP. Read more here\nWithin my first 6 months at STEMCELL Technologies, I became a go-to consultant for transforming a department-level Change Control workflow into a company-wide program, as recognized for quickly learning the process from multiple operational angles.\n\n\n\n💡 Operational Problem-Solver\nI thrive at identifying bottlenecks and translating chaos into structured systems.\nExamples:\n\nLed cross-departmental programs reducing process turnaround by 75%.\n\nBuilt internal apps that improved data management and decision-making speed.\n\n\n\n🤝 Cross-Functional Communicator\nI bridge gaps between technical and non-technical teams to turn ideas into delivered solutions.\nExamples:\n\nBridge between R&D, engineering, and clinical teams to translate complex requirements into deployed solutions.\n\nExperience leading change management and mentoring peers in technical skills."
   },
   {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
+    "objectID": "index.html#what-you-gain-by-having-me",
+    "href": "index.html#what-you-gain-by-having-me",
     "title": "Daria Khon",
-    "section": "Projects",
-    "text": "Projects\nAutomatic Medical Image Segmentation for Precision Orthopedic Surgery | Dash, U-net, GCP  Partnering with BC Children’s Hospital to build an ML-powered image segmentation web app, automating CT scan classification for surgical planning. (Current project, details TBC)\nPharmaceutical Spending Dashboard | Dash  Built an interactive dashboard with Dash for visualizing pharmaceutical drug spending across the world.\nsalesanalyzer Python Package | PyPI, pytest, ci-cd  Co-authored a python package to assist small businesses with sales data analysis\nNYC Airbnb Listing Popularity Predictor | Regression, Feature Engineering, SHAP  Built an end-to-end data science pipeline for predicting Airbnb’s listing popularity with multiple regression models (Ridge, LightGBM, RandomForest), incorporating explainability with SHAP.\n→ Learn More & View all projects"
-  },
-  {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
-    "title": "Daria Khon",
-    "section": "Education",
-    "text": "Education\nMaster of Data Science | The University of British Columbia | Completion June 2025  Bachelor of Applied Science in Chemical and Biological Engineerng | The University of British Columbia | May 2021"
+    "section": "What You Gain by Having Me",
+    "text": "What You Gain by Having Me\n\n\n⚙️ Systems Thinking with Business Impact\n\nNot just coding - I focus on what matters: improving workflows, enabling decisions, and reducing friction.\nProven record of moving projects from concept to clinical or business impact.\n\n\n\n\n\n🌱 Adaptability & Growth Mindset\n\nThrive in ambiguity, pivot quickly, and continue to learn new tools and technologies.\n\nMentored others and led initiatives, ready to grow as a leader on your team.\n\n\n\n🏔️ Reliable Execution\n\nBuild solutions that are reproducible, maintainable, and operationally ready.\n\nCombine domain expertise with technical skills to deliver end-to-end impact."
   },
   {
     "objectID": "portfolio/projects/wine.html#contributors",

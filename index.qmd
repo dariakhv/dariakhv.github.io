@@ -4,35 +4,82 @@ about:
   id: about-block
   image: img/profile.jpg
 ---
+
 ## Hello, I'm Daria!
-I'm a Project Manager with 3+ years of experience in the biotechnology space. I am passionate about the intersection of data and biology, and believe that great tools drive efficient research loop — from state-of-the-art pipettes to cutting-edge computational models. Soon to hold a **Master’s in Data Science**, I’m dedicated to equipping the biotech space with the tools it needs to push boundaries.
+<span style="font-size: 1.2rem;"><em>Taking the complex and making it routine</em></span>
 
-Outside of work, I enjoy reading, writing about books, playing volleyball, and exploring new cafes and restaurants.
+I am a biotech project manager turned **data scientist** with 3+ years of experience in building practical, scalable tools for scientific teams to move faster and smarter. 
 
-## Work Experience
-[STEMCELL Technologies](https://www.linkedin.com/company/stemcell-technologies/posts/?feedView=all)
+Streamlining product launches  |  Deploying AI models | Building scalable systems
 
-- Senior Custom Product Program Associate (Jan 2024 - Jun 2024)
-- Senior Operations Management Program Associate (Aug 2023 - Jan 2024)
-- Manufacturing Operations Coordinator (May 2021 - Aug 2023)
+[Explore My Portfolio](portfolio/listings.qmd){.btn .btn-outline-primary}
 
-## Projects 
-**Automatic Medical Image Segmentation for Precision Orthopedic Surgery** | **Dash, U-net, GCP** <br>
-Partnering with BC Children's Hospital to build an ML-powered image segmentation web app, automating CT scan classification for surgical planning. (Current project, details TBC)
+---
 
-[Pharmaceutical Spending Dashboard](portfolio/projects/pharmaspend.qmd) | **Dash** <br>
-Built an interactive dashboard with Dash for visualizing pharmaceutical drug spending across the world.
+## What I Bring to the Table
 
-[salesanalyzer Python Package](portfolio/projects/salesanalyzer) | **PyPI, pytest, ci-cd** <br>
-Co-authored a python package to assist small businesses with sales data analysis
+::: {.row}
 
-[NYC Airbnb Listing Popularity Predictor](portfolio/projects/airbnb.qmd) | **Regression, Feature Engineering, SHAP** <br>
-Built an end-to-end data science pipeline for predicting Airbnb’s listing popularity with multiple regression models (Ridge, LightGBM, RandomForest), incorporating explainability with SHAP.
+::: {.col-md-4}
+### 🔍 Critical Thinker & Fast Learner
+*I adapt quickly in fast-paced environments and pick up complex technical skills with speed.*
 
-[**→ Learn More & View all projects**](portfolio/listings.qmd)
+**Examples:**
 
-## Education
-**Master of Data Science** | The University of British Columbia | Completion June 2025 <br>
-**Bachelor of Applied Science in Chemical and Biological Engineerng** | The University of British Columbia | May 2021
+- In just 2 months, I mapped clinical engineers’ workflows to a user-focused medical image segmentation dashboard using a U-Net model, delivering real-time inference for bone segmentations, 3D visualization, and full deployment on GCP. [Read more here](portfolio/projects/medicalsegmentation.qmd)
+- Within my first 6 months at STEMCELL Technologies, I became a go-to consultant for transforming a department-level Change Control workflow into a company-wide program, as recognized for quickly learning the process from multiple operational angles.
 
 
+:::
+
+::: {.col-md-4}
+### 💡 Operational Problem-Solver
+*I thrive at identifying bottlenecks and translating chaos into structured systems.*
+
+**Examples:**
+
+- Led cross-departmental programs reducing process turnaround by 75%.  
+- Built internal apps that improved data management and decision-making speed.
+:::
+
+::: {.col-md-4}
+### 🤝 Cross-Functional Communicator
+*I bridge gaps between technical and non-technical teams to turn ideas into delivered solutions.*
+
+**Examples:**
+
+- Bridge between R&D, engineering, and clinical teams to translate complex requirements into deployed solutions.  
+- Experience leading change management and mentoring peers in technical skills.
+:::
+
+:::
+
+---
+
+## What You Gain by Having Me
+
+::: {.row}
+
+::: {.col-md-6}
+### ⚙️ Systems Thinking with Business Impact
+- Not just coding - I focus on what matters: improving workflows, enabling decisions, and reducing friction.
+- Proven record of moving projects from concept to clinical or business impact.
+:::
+
+:::
+
+::: {.row}
+
+::: {.col-md-6}
+### 🌱 Adaptability & Growth Mindset
+- Thrive in ambiguity, pivot quickly, and continue to learn new tools and technologies.  
+- Mentored others and led initiatives, ready to grow as a leader on your team.
+:::
+
+::: {.col-md-6}
+### 🏔️ Reliable Execution
+- Build solutions that are reproducible, maintainable, and operationally ready.  
+- Combine domain expertise with technical skills to deliver end-to-end impact.
+:::
+
+:::

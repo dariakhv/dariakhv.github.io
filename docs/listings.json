@@ -2,6 +2,7 @@
   {
     "listing": "/portfolio/listings.html",
     "items": [
+      "/portfolio/projects/medicalsegmentation.html",
       "/portfolio/projects/pharmaspend.html",
       "/portfolio/projects/goodreads.html",
       "/portfolio/projects/salesanalyzer.html",
