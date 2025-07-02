@@ -1,11 +1,11 @@
 ---
 title: "Automated Medical Image Segmentation for Orthopedic Surgery"
 date: "2025-06-26"
-categories: [semantic segmentation, unet, dash, gcp]
+categories: [semantic segmentation, unet, dash, gcp, Docker, Machine Learning]
 image: "img/segmentation.png"
 ---
 ## Produc Overview
-The data product is a dashboard designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:
+Automated medical image segmentation dashboard - designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:
 
 1. Uploading volumetric CT scans 
 2. Previewing 2D slices in medical standard “3-pane” view 
@@ -26,13 +26,11 @@ A central design choice was the adoption of a 4-pane layout that mirrors the sta
 
 Another design consideration was to include restriction of viewing segmentation overlays (in green) for one bone class at a time, in order to prevent visual clutter, and maximize interpretability of the segmentation quality on a per-bone basis. The overlay opacity is controlled by a slider in the “Settings” tab. The “Reduce mesh by” parameter controls the resolution complexity of the 3D figure, reducing the number of faces, which is useful for minimizing file size or preparing the mesh for rapid prototyping. The “Smooth surface” parameter enables control over the interpolation of voxel boundaries, allowing for smoother and more anatomically realistic surfaces.
 
-
 Since generation of the 3D STL output is a bit of a manual process - the engineers must decide how to “connect” individual voxels in the 3D space by a mesh - we included two key adjustable parameters, also found in the “Settings tab”.
 
 ![Dashboard settings tab with mask opacity and STL parameter settings](img/dashboard_settings.png)
 
 Reproducibility was another critical design element for clinical context usability. Therefore, we added a separate “Reload” tab to allow users to reload past segmentation results, reinstating the dashboard, thus enabling result validation and creating an audit trail. The “Reload” tab mirrors the main “Segment” tab layout, reinforcing interface consistency.
-
 
 ## Attributions
 * This Project was in partnership with BC Children's Hospital Digital Lab.

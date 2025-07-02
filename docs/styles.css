@@ -45,3 +45,32 @@ body {
     color: #555; 
   }
 
+  .two-column-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 1em;
+  }
+  
+  .column-box {
+    background-color: #fff;
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+
+  .grid-2x2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 1.5em;
+  }
+  
+  .card-box {
+    background-color: #fff;
+    padding: 1.5em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }

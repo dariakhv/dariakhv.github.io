@@ -8,78 +8,72 @@ about:
 ## Hello, I'm Daria!
 <span style="font-size: 1.2rem;"><em>Taking the complex and making it routine</em></span>
 
-I am a biotech project manager turned **data scientist** with 3+ years of experience in building practical, scalable tools for scientific teams to move faster and smarter. 
+I am a **data scientist** with a background in chemical engineering & **operations management** in biotech. I buil practical and scalable tools for scientific teams to move faster and smarter. 
 
-Streamlining product launches  |  Deploying AI models | Building scalable systems
+ Deploying AI models | Building scalable systems | Streamlining product launches
 
-[Explore My Portfolio](portfolio/listings.qmd){.btn .btn-outline-primary}
+[Explore My Portfolio](portfolio/listings.qmd){.btn .btn-outline-primary} [Contact](https://www.linkedin.com/in/dariakhon/){.btn .btn-outline-primary}
+
+#### Work Experience
+
+- Data Scientist | The Digital Lab, BC Children's Hospital
+- Sr. Program Associate | STEMCELL Technologies
+- Operations Coordinator | STEMCELL Technologies
+
+#### Education
+- Master of Data Science | Univesity of British Columbia
+- Bachelor of Applied Sciences, Chemical Engineering | University of British Columbia
 
 ---
 
 ## What I Bring to the Table
 
-::: {.row}
+<div class="grid-2x2">
 
-::: {.col-md-4}
-### 🔍 Critical Thinker & Fast Learner
+<div class="card-box">
+
+### Critical Thinking & Fast Learning
 *I adapt quickly in fast-paced environments and pick up complex technical skills with speed.*
+ 
+**Delivered Impact**
 
-**Examples:**
+-  Translated complex clinical workflows into a practical automated medical image segmentation tool - completed in 2 months with 94% inference accuracy, 3D visualization, and cloud deployment. [Read more here](portfolio/projects/medicalsegmentation.qmd)
 
-- In just 2 months, I mapped clinical engineers’ workflows to a user-focused medical image segmentation dashboard using a U-Net model, delivering real-time inference for bone segmentations, 3D visualization, and full deployment on GCP. [Read more here](portfolio/projects/medicalsegmentation.qmd)
-- Within my first 6 months at STEMCELL Technologies, I became a go-to consultant for transforming a department-level Change Control workflow into a company-wide program, as recognized for quickly learning the process from multiple operational angles.
+</div>
 
+<div class="card-box">
 
-:::
-
-::: {.col-md-4}
-### 💡 Operational Problem-Solver
+### Operational Problem-Solving with Business Impact
 *I thrive at identifying bottlenecks and translating chaos into structured systems.*
 
-**Examples:**
+**Delivered Impact**
 
-- Led cross-departmental programs reducing process turnaround by 75%.  
-- Built internal apps that improved data management and decision-making speed.
-:::
+- Launched company-wide programs for regulated change control that centralized data management, improved cross-functional transparency, and strengthened regulatory data integrity across multiple departments.
 
-::: {.col-md-4}
-### 🤝 Cross-Functional Communicator
+</div>
+
+<div class="card-box">
+
+### Cross-Functional Communication  
 *I bridge gaps between technical and non-technical teams to turn ideas into delivered solutions.*
 
-**Examples:**
+**Delivered Impact** 
 
-- Bridge between R&D, engineering, and clinical teams to translate complex requirements into deployed solutions.  
-- Experience leading change management and mentoring peers in technical skills.
-:::
+- Liaised with R&D, QA, and Sales teams to translate complex requirements into delivered custom life science products - aligning technical feasibility with business needs.
 
-:::
+</div>
 
----
+<div class="card-box">
 
-## What You Gain by Having Me
+### Reliable Execution  
+*I build reproducible, maintainable, and operationally ready tools.*
 
-::: {.row}
+**Delivered Impact:**  
 
-::: {.col-md-6}
-### ⚙️ Systems Thinking with Business Impact
-- Not just coding - I focus on what matters: improving workflows, enabling decisions, and reducing friction.
-- Proven record of moving projects from concept to clinical or business impact.
-:::
+- Deployed production ready machine learning powered dashboard, reproduced via Docker container and training documentations.
 
-:::
+</div>
 
-::: {.row}
+</div>
 
-::: {.col-md-6}
-### 🌱 Adaptability & Growth Mindset
-- Thrive in ambiguity, pivot quickly, and continue to learn new tools and technologies.  
-- Mentored others and led initiatives, ready to grow as a leader on your team.
-:::
 
-::: {.col-md-6}
-### 🏔️ Reliable Execution
-- Build solutions that are reproducible, maintainable, and operationally ready.  
-- Combine domain expertise with technical skills to deliver end-to-end impact.
-:::
-
-:::
