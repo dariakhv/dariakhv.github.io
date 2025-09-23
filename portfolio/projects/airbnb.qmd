@@ -1,7 +1,7 @@
 ---
 title: "NYC Airbnb Listings Popularity Prediction"
 date: "2024-12-17"
-categories: [Machine Learning, Regression, Feature Engineering, SHAP]
+categories: [Machine Learning, Regression, Feature Engineering, SHAP, pipeline]
 image: "img/airbnb.png"
 ---
 [![](https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BChangs99/NYC-Airbnb-2019-Prediction-Model/tree/mainr)

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-12-15">
+<meta name="dcterms.date" content="2025-09-22">
 
-<title>Wine Chromatic Profile Classification – Daria Khon</title>
+<title>SaaS Retention &amp; Churn Analysis - Business Report – Daria Khon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,14 +126,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about" id="toc-about" class="nav-link active" data-scroll-target="#about">About</a>
+  <li><a href="#business-problem" id="toc-business-problem" class="nav-link active" data-scroll-target="#business-problem">Business Problem</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a>
   <ul class="collapse">
-  <li><a href="#inmportaint-note" id="toc-inmportaint-note" class="nav-link" data-scroll-target="#inmportaint-note">Inmportaint note:</a></li>
+  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
+  <li><a href="#defined-kpis" id="toc-defined-kpis" class="nav-link" data-scroll-target="#defined-kpis">Defined KPIs</a></li>
+  <li><a href="#data-pipeline" id="toc-data-pipeline" class="nav-link" data-scroll-target="#data-pipeline">Data Pipeline</a></li>
   </ul></li>
-  <li><a href="#report" id="toc-report" class="nav-link" data-scroll-target="#report">Report</a>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a>
   <ul class="collapse">
-  <li><a href="#contributors" id="toc-contributors" class="nav-link" data-scroll-target="#contributors">Contributors</a></li>
+  <li><a href="#average-retention-trend" id="toc-average-retention-trend" class="nav-link" data-scroll-target="#average-retention-trend">Average Retention Trend</a></li>
+  <li><a href="#retention-curves-by-subscription-type" id="toc-retention-curves-by-subscription-type" class="nav-link" data-scroll-target="#retention-curves-by-subscription-type">Retention Curves by Subscription Type</a></li>
+  <li><a href="#churn-distribution-by-support-calls" id="toc-churn-distribution-by-support-calls" class="nav-link" data-scroll-target="#churn-distribution-by-support-calls">Churn Distribution by Support Calls</a></li>
   </ul></li>
+  <li><a href="#insights-recommendations" id="toc-insights-recommendations" class="nav-link" data-scroll-target="#insights-recommendations">Insights &amp; Recommendations</a></li>
+  <li><a href="#next-steps" id="toc-next-steps" class="nav-link" data-scroll-target="#next-steps">Next Steps</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
 </nav>
     </div>
@@ -142,11 +150,11 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Wine Chromatic Profile Classification</h1>
+<h1 class="title">SaaS Retention &amp; Churn Analysis - Business Report</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Docker</div>
+    <div class="quarto-category">analytics</div>
+    <div class="quarto-category">database</div>
     <div class="quarto-category">Machine Learning</div>
-    <div class="quarto-category">Logistic Regression</div>
     <div class="quarto-category">pipeline</div>
   </div>
   </div>
@@ -159,7 +167,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 15, 2024</p>
+      <p class="date">September 22, 2025</p>
     </div>
   </div>
   
@@ -171,25 +179,118 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="https://github.com/UBC-MDS/DSCI522-2425-22-wine-chromatic-profile"><img src="https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&amp;logo=github&amp;logoColor=white.png" class="img-fluid"></a></p>
-<section id="about" class="level1">
-<h1>About</h1>
-<p>In this project we created a classification model to predict the type of wine (red or white) based on its physicochemical properties, such as acidity, sulfates, citric acid, etc. The logistic regression model was selected for its simplicity and effectiveness in binary classification tasks. Our classifier demonstrated excellent performance on unseen data, achieving test accuracy of 0.99. Out of 1,950 instances, only 15 were misclassified, showcasing the model’s reliability and its potential for practical applications in wine quality assessment and categorization. <br> <br> The data set we used in this project was created by By P. Cortez, A. Cerdeira, Fernando Almeida, Telmo Matos, J. Reis. 2009 as part of Decision Support Systems publication, and is available on UCI Machine Learning Repository <a href="https://archive.ics.uci.edu/dataset/186/wine+quality">here</a>.</p>
-<section id="inmportaint-note" class="level3">
-<h3 class="anchored" data-anchor-id="inmportaint-note">Inmportaint note:</h3>
-<p>The main focus of this project was to build a successful reproducible data science pipeline using Docker and Makefile. Please check out the GitHub Repo (linked above) to see the details on how to run the Docker container.</p>
-<p>Also, check out <a href="https://medium.com/@daria.khon/using-docker-for-the-first-time-a-literal-piece-of-cake-1faf20ef85cd">my article</a> on how to build intuition around composing the Docker file,</p>
+<p><a href="https://github.com/dariakhv/saas_churn_subscription"><img src="https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&amp;logo=github&amp;logoColor=white.png" class="img-fluid"></a></p>
+<section id="business-problem" class="level1">
+<h1>Business Problem</h1>
+<p>Software as a service (SaaS) businesses depend on recurring revenue and long-term subscriber engagement.<br>
+A key challenge is <strong>customer churn</strong>, especially in the first few months of a subscription.</p>
+<p>This analytics report explores churn dynamics through cohort analysis, retention tracking, and predictive modeling to:</p>
+<ul>
+<li>Identify high-risk customers</li>
+<li>Measure retention rates across cohorts and subscription tiers</li>
+<li>Recommend strategies for subscriber retention and business growth</li>
+</ul>
+<p><em>Note: This is a synthetic case study built from public and generated data. The primary objective is to demonstrate my ability to design a structured analytics workflow, manage data in a relational database, and present actionable insights in a way that would be meaningful to business stakeholders.</em></p>
+<p><strong>Context:</strong><br> Churn == missed opportunity for deeper customer lifetime value (LTV). By analyzing subscriber cohorts (defined by the first-time subscription month) and churn patterns, we can identify where retention investments yield the greatest impact.</p>
+<p>Strategic levers include:</p>
+<ul>
+<li>Strengthening onboarding for new subscribers<br>
+</li>
+<li>Creating loyalty and engagement campaigns<br>
+</li>
+<li>Offering targeted discounts or perks to at-risk customers<br>
+</li>
+<li>Upselling satisfied Standard users into Premium plans</li>
+</ul>
+<p><strong>Important Limitations:</strong></p>
+<ol type="1">
+<li>This is a synthetic study for portfolio purposes only. The data is a combination of <a href="https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset/data">Kagle</a> dataset and synthetic data created by a random algorithm for invoices patterns and subscription tiers details, in order to simulate a <strong>relational database</strong> with pgAdmin (PostgreSQL).</li>
+<li>KPIs are based on simplified assumptions (e.g., churn = binary, no reactivations).</li>
+<li>Cohort granularity is monthly; in real settings, weekly or daily cuts may reveal sharper insights.</li>
+</ol>
+<p><em>Subscription types are artificially balanced; in reality, Premium users are usually a minority segment.</em></p>
+</section>
+<section id="approach" class="level1">
+<h1>Approach</h1>
+<section id="data-source" class="level2">
+<h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
+<p>The data used is a combination of SaaS subscription dataset sourced from Kaggle, enriched by two additional synthetic datasetes to mimic a real SaaS environment. Rather than working solely with CSV files, I designed a PostgreSQL database in pgAdmin to simulate an operational data store.</p>
+<ul>
+<li><strong>Schema design:</strong> Defined customers, subscriptions, and invoices tables with primary keys and relationships, reflecting common SaaS data models.</li>
+<li><strong>Data Integrity:</strong> Enforced typing and column normalization (e.g., lower snake_case naming convention) to align with production-ready best practices.</li>
+<li><strong>Storage &amp; monitoring:</strong> Using pgAdmin allowed me to write raw SQL queries, validate cohorts directly in SQL, and monitor data health before pulling into Python for analysis.</li>
+</ul>
+<p>This setup was done with a purpos to enforce end-to-end ownership: from raw data ingestion to structured relational storage, ensuring queries scale and analysis is reproducible. <img src="img/database.png" class="img-fluid"></p>
+</section>
+<section id="defined-kpis" class="level2">
+<h2 class="anchored" data-anchor-id="defined-kpis">Defined KPIs</h2>
+<p>To track the effectiveness of retention strategies, I defined and monitored the following key SaaS metrics that can be directly translated to real-world stakeholder reporting:</p>
+<ul>
+<li><strong>Monthly Retention Rate</strong> = % of active users retained since signup<br>
+</li>
+<li><strong>Churn Rate</strong> = % of users lost each period</li>
+</ul>
+</section>
+<section id="data-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="data-pipeline">Data Pipeline</h2>
+<p>The project pipeline was intentionally modular to reflect real-world data workflows:</p>
+<ol type="1">
+<li><strong>Ingest</strong> data into pgAdmin database <code>data/.</code></li>
+<li><strong>Process</strong> with SQL queries for cohort-based retention metrics, ensuring transparency and reusability <code>sql/.</code></li>
+<li><strong>Analyze &amp; Vizualize</strong> Pulled SQL results into Jupyter Notebooks using Python for deeper aggregation, exploratory analysis, and business-ready visualization. <code>notebooks/.</code></li>
+<li><strong>Predictive Modeling:</strong> Trained an ensemble Random Forest churn prediction model to proactively flag at-risk subscribers with 98% recall score (recall was chosen as the key metric as falsely mislabelling a churned customer as non-churn carries higher risks for the business). <code>src/.</code></li>
+<li><strong>Monitoring:</strong> Pipeline montoring with evidently package to check for any feature distribution drifts, and other data anomalies as new data is ingested on a defined cadence. <code>src/monitor.py</code></li>
+</ol>
+<p>Run the whole pipeline with <code>./run_pipeline.py</code></p>
 </section>
 </section>
-<section id="report" class="level1">
-<h1>Report</h1>
-<p>The final report can be found <a href="https://ubc-mds.github.io/DSCI522-2425-22-wine-chromatic-profile/">here</a>.</p>
-<section id="contributors" class="level2">
-<h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
-<p>Daria Khon, Farhan Bin Faisal, Adrian Leung, Zhiwei Zhang</p>
+<section id="results" class="level1">
+<h1>Results</h1>
+<section id="average-retention-trend" class="level2">
+<h2 class="anchored" data-anchor-id="average-retention-trend">Average Retention Trend</h2>
+<p><img src="img/avg_ret_curve.png" class="img-fluid" style="width:80.0%"></p>
+<p>Retention declines steeply in the first few months for each cohort, indicating that early churn is the biggest risk area. Cohorts follow a consistent downward trend: the largest drop occurs after the first month, stabilizing later. <em>Because the data is synthetic, seasonal or external demand effects are not captured. In a real-world dataset I would opt in to visualize cohort month by month retention trends via a heatmap to zoom in on any hidden seasonal trend analytics.</em></p>
+</section>
+<section id="retention-curves-by-subscription-type" class="level2">
+<h2 class="anchored" data-anchor-id="retention-curves-by-subscription-type">Retention Curves by Subscription Type</h2>
+<p><strong>Basic</strong><br>
+<img src="img/saasretention.png" class="img-fluid" style="width:80.0%"></p>
+<p>We can observe similar trend as per cohort general analytics. However, since the dataset is synthetic, curves across subscription tiers look very similar if not identical. In real-world data, Basic plans typically show the sharpest early churn, while Premium customers retain longer.</p>
+</section>
+<section id="churn-distribution-by-support-calls" class="level2">
+<h2 class="anchored" data-anchor-id="churn-distribution-by-support-calls">Churn Distribution by Support Calls</h2>
+<p><img src="img/churn_median_calls.png" class="img-fluid" style="width:90.0%"><br>
+Customers who churn make more support calls, suggesting friction or dissatisfaction is a churn driver. <em>Median was plotted as the distribution of support calls feature is skewed.</em></p>
+<p>However, subscription type alone does not explain churn risk — behavioral signals like usage and support tickets could provide better insights into the state of the customer support operations.</p>
+</section>
+</section>
+<section id="insights-recommendations" class="level1">
+<h1>Insights &amp; Recommendations</h1>
+<ol type="1">
+<li>Critical Period: Retention curves show the first 1–3 months are the riskiest for churn. Focused onboarding, guided product tours, and early engagement campaigns (emails, in-app nudges) should be prioritized.</li>
+<li>Tier Strategy: While synthetic data limited variability, industry benchmarks suggest Standard-tier users are prime candidates for upsell to Premium through added features or loyalty discounts.</li>
+<li>Customer Support Friction: Strong correlation between high support call volume and churn suggests dissatisfaction is a major driver. Review support operations — especially ticket resolution times, escalation workflows, and self-service resources.</li>
+<li>Predictive Targeting: The Random Forest churn model identifies at-risk users before they churn, enabling proactive retention campaigns. Continuous drift monitoring should be applied to keep predictions aligned with evolving user behavior.</li>
+<li>Data Infrastructure: Cohort analysis in PostgreSQL provides scalable retention tracking, while visualization in Python ensures business teams can monitor KPIs intuitively. This pipeline demonstrates a repeatable process for ongoing subscriber health monitoring</li>
+</ol>
+</section>
+<section id="next-steps" class="level1">
+<h1>Next Steps</h1>
+<ul>
+<li>A/B test different onboarding flows for new subscribers<br>
+</li>
+<li>Introduce loyalty rewards for long-term retention<br>
+</li>
+<li>Monitor churn predictions monthly and refine the model<br>
+</li>
+<li>Expand segmentation by demographics or product usage for deeper insights</li>
+</ul>
+</section>
+<section id="resources" class="level1">
+<h1>Resources</h1>
+<p><strong>Tech Stack:</strong> PostgreSQL, pgAdmin, scikit-learn, evidently, matplotlib, seaborn, quarto</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

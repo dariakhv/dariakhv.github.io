@@ -4,14 +4,112 @@
     "href": "portfolio/listings.html",
     "title": "Extended Portfolio",
     "section": "",
-    "text": "Automated Medical Image Segmentation for Orthopedic Surgery\n\n\n\n\n\n\nsemantic segmentation\n\n\nunet\n\n\ndash\n\n\ngcp\n\n\nDocker\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\nJun 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPharmaceutical Spending Dashboard\n\n\n\n\n\n\ndash\n\n\ndashboard\n\n\n\n\n\n\n\n\n\nMar 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGoodreads Data Analytics\n\n\n\n\n\n\nAPI\n\n\nshiny\n\n\n\n\n\n\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nsalesanalyzer Python Package\n\n\n\n\n\n\nPyPI\n\n\nci-cd\n\n\npytest\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNYC Airbnb Listings Popularity Prediction\n\n\n\n\n\n\nMachine Learning\n\n\nRegression\n\n\nFeature Engineering\n\n\nSHAP\n\n\n\n\n\n\n\n\n\nDec 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWine Chromatic Profile Classification\n\n\n\n\n\n\nDocker\n\n\nMachine Learning\n\n\nLogistic Regression\n\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "SaaS Retention & Churn Analysis - Business Report\n\n\n\n\n\n\nanalytics\n\n\ndatabase\n\n\nMachine Learning\n\n\npipeline\n\n\n\n\n\n\n\n\n\nSep 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nAutomated Medical Image Segmentation for Orthopedic Surgery\n\n\n\n\n\n\nsemantic segmentation\n\n\nunet\n\n\ndash\n\n\ngcp\n\n\nDocker\n\n\nMachine Learning\n\n\npipeline\n\n\n\n\n\n\n\n\n\nJun 26, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nPharmaceutical Spending Dashboard\n\n\n\n\n\n\ndash\n\n\ndashboard\n\n\n\n\n\n\n\n\n\nMar 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nGoodreads Data Analytics\n\n\n\n\n\n\nAPI\n\n\nshiny\n\n\n\n\n\n\n\n\n\nMar 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nsalesanalyzer Python Package\n\n\n\n\n\n\nPyPI\n\n\nci-cd\n\n\npytest\n\n\n\n\n\n\n\n\n\nFeb 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nNYC Airbnb Listings Popularity Prediction\n\n\n\n\n\n\nMachine Learning\n\n\nRegression\n\n\nFeature Engineering\n\n\nSHAP\n\n\npipeline\n\n\n\n\n\n\n\n\n\nDec 17, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nWine Chromatic Profile Classification\n\n\n\n\n\n\nDocker\n\n\nMachine Learning\n\n\nLogistic Regression\n\n\npipeline\n\n\n\n\n\n\n\n\n\nDec 15, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "portfolio/projects/goodreads.html#contributors",
-    "href": "portfolio/projects/goodreads.html#contributors",
-    "title": "Goodreads Data Analytics",
+    "objectID": "portfolio/projects/salesanalyzer.html#about",
+    "href": "portfolio/projects/salesanalyzer.html#about",
+    "title": "salesanalyzer Python Package",
+    "section": "About",
+    "text": "About\nA Python package designed to simplify retail sales data analysis for small to medium-sized businesses. This tool offers a set of pre-built functions that make it easy to identify market segments, predict future sales, and analyze seasonal revenue trends."
+  },
+  {
+    "objectID": "portfolio/projects/salesanalyzer.html#why-salesanalyzer",
+    "href": "portfolio/projects/salesanalyzer.html#why-salesanalyzer",
+    "title": "salesanalyzer Python Package",
+    "section": "Why salesanalyzer?",
+    "text": "Why salesanalyzer?\nSmall to medium-sized businesses (SMBs) often lack the resources for in-house data teams or complex analytics tools. sales_analyzer is here to bridge that gap by providing easy-to-use, specialized functions that allow businesses to extract valuable insights from their sales data without requiring deep expertise in data science.\n\nKey Benefits:\n\nTailored for SMBs: No need for expensive or complex tools. Our package is designed specifically for small to medium-sized businesses to help them make data-driven decisions with ease.\nEasy-to-use functions: Simple, pre-built functions for common retail sales tasks so you can get started right away.\nCost-effective: Instead of hiring a full-time data analytics team or paying for expensive software, this package offers an affordable, one-stop solution to meet your business’s analytical needs.\nActionable Insights: Gain a better understanding of your market segments and sales trends, which can inform inventory management, marketing strategies, and customer outreach."
+  },
+  {
+    "objectID": "portfolio/projects/salesanalyzer.html#functions",
+    "href": "portfolio/projects/salesanalyzer.html#functions",
+    "title": "salesanalyzer Python Package",
+    "section": "Functions",
+    "text": "Functions\n\nsegment_revenue_share: Segments products into three categories: cheap, medium, expensive, based on price, and calculates their respective share in total revenue.\npredictSales: Predicts future sales based on the provided historical data and the target.\nsales_summary_statistics: Calculates a variety of summary statistics that provide insights into overall sales performance, customer behavior, and product performance."
+  },
+  {
+    "objectID": "portfolio/projects/salesanalyzer.html#contributors",
+    "href": "portfolio/projects/salesanalyzer.html#contributors",
+    "title": "salesanalyzer Python Package",
     "section": "Contributors",
-    "text": "Contributors\nDaria Khon"
+    "text": "Contributors\nDaria Khon, Yeji Sogn, Franklin Aryee"
+  },
+  {
+    "objectID": "portfolio/projects/pharmaspend.html#about",
+    "href": "portfolio/projects/pharmaspend.html#about",
+    "title": "Pharmaceutical Spending Dashboard",
+    "section": "About",
+    "text": "About\nWe created an intuitive tool to help healthcare policy administrators across the world to make knowlegeable decisions around drug price policies. This dashboard takes in the scattered worldwide information and presents it as a decision-ready intelligence for daily decision-making.\nThis project is based on Kaggle Pharmaceutical Drug Spending by countries data set, which originated from Organisation for Economic Co-operation and Development (OECD) collected data. With the data capped at 2016, this dashboard architechture can be easily integrated into a new data set."
+  },
+  {
+    "objectID": "portfolio/projects/pharmaspend.html#dashboard-overview",
+    "href": "portfolio/projects/pharmaspend.html#dashboard-overview",
+    "title": "Pharmaceutical Spending Dashboard",
+    "section": "Dashboard Overview",
+    "text": "Dashboard Overview\nPharmaceutical Spending Dashboard is hosted on the Render platform, and can be accessed here\n\nComponents\n\nChoropleth Map (Top): Displays geographic distribution of spending.\nTime Series Chart (Bottom Left): Shows spending trends over time.\nBar Graph (Bottom Right): Breaks down overall spending by countries.\nSummary statistics\n\n\n\nInteractions\nThe user can customize the view of the dashboard by interacting with: - Global filters: Country and year selectors apply to all charts and summary statistics, keeping the dashboard focused on the selected region and time period. - Local filters: Radio buttons allow users to choose the specific spending metric they want to explore, which will apply to all charts. - All charts have tooltips to provide additional information about the data, which will be displayed upon hovering over the chart element of interest.\n\n\nDemo"
+  },
+  {
+    "objectID": "portfolio/projects/pharmaspend.html#contributors",
+    "href": "portfolio/projects/pharmaspend.html#contributors",
+    "title": "Pharmaceutical Spending Dashboard",
+    "section": "Contributors",
+    "text": "Contributors\nJason Lee, Celine Habashy, Daria Khon, Catherine Meng"
+  },
+  {
+    "objectID": "portfolio/projects/wine.html#contributors",
+    "href": "portfolio/projects/wine.html#contributors",
+    "title": "Wine Chromatic Profile Classification",
+    "section": "Contributors",
+    "text": "Contributors\nDaria Khon, Farhan Bin Faisal, Adrian Leung, Zhiwei Zhang"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Daria Khon",
+    "section": "",
+    "text": "Taking the complex and making it routine\nI am a data scientist with a background in chemical engineering & operations management in biotech. I buil practical and scalable tools for scientific teams to move faster and smarter.\nDeploying AI models | Building scalable systems | Streamlining product launches\nExplore My Portfolio Contact\n\n\n\nData Scientist | The Digital Lab, BC Children’s Hospital\nSr. Program Associate | STEMCELL Technologies\nOperations Coordinator | STEMCELL Technologies\n\n\n\n\n\nMaster of Data Science | Univesity of British Columbia\nBachelor of Applied Sciences, Chemical Engineering | University of British Columbia"
+  },
+  {
+    "objectID": "index.html#hello-im-daria",
+    "href": "index.html#hello-im-daria",
+    "title": "Daria Khon",
+    "section": "",
+    "text": "Taking the complex and making it routine\nI am a data scientist with a background in chemical engineering & operations management in biotech. I buil practical and scalable tools for scientific teams to move faster and smarter.\nDeploying AI models | Building scalable systems | Streamlining product launches\nExplore My Portfolio Contact\n\n\n\nData Scientist | The Digital Lab, BC Children’s Hospital\nSr. Program Associate | STEMCELL Technologies\nOperations Coordinator | STEMCELL Technologies\n\n\n\n\n\nMaster of Data Science | Univesity of British Columbia\nBachelor of Applied Sciences, Chemical Engineering | University of British Columbia"
+  },
+  {
+    "objectID": "index.html#what-i-bring-to-the-table",
+    "href": "index.html#what-i-bring-to-the-table",
+    "title": "Daria Khon",
+    "section": "What I Bring to the Table",
+    "text": "What I Bring to the Table\n\n\nCritical Thinking & Fast Learning\nI adapt quickly in fast-paced environments and pick up complex technical skills with speed.\nDelivered Impact\n\nTranslated complex clinical workflows into a practical automated medical image segmentation tool - completed in 2 months with 94% inference accuracy, 3D visualization, and cloud deployment. Read more here\n\n\n\nOperational Problem-Solving with Business Impact\nI thrive at identifying bottlenecks and translating chaos into structured systems.\nDelivered Impact\n\nLaunched company-wide programs for regulated change control that centralized data management, improved cross-functional transparency, and strengthened regulatory data integrity across multiple departments.\n\n\n\nCross-Functional Communication\nI bridge gaps between technical and non-technical teams to turn ideas into delivered solutions.\nDelivered Impact\n\nLiaised with R&D, QA, and Sales teams to translate complex requirements into delivered custom life science products - aligning technical feasibility with business needs.\n\n\n\nReliable Execution\nI build reproducible, maintainable, and operationally ready tools.\nDelivered Impact:\n\nDeployed production ready machine learning powered dashboard, reproduced via Docker container and training documentations."
+  },
+  {
+    "objectID": "portfolio/projects/medicalsegmentation.html",
+    "href": "portfolio/projects/medicalsegmentation.html",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "",
+    "text": "Automated medical image segmentation dashboard - designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:\n\nUploading volumetric CT scans\nPreviewing 2D slices in medical standard “3-pane” view\nRunning AI segmentation model inference\nChecking quality of segmentation via mask overlay\nReconstructing 3D STL object\nDownloading desired segments with reporting and dashboard state metadata\nReproducing results by re-uploading past segmentations\n\n\n\n\nDashboard main segmentation tab layout\n\n\nOne of the key strengths of our products is its ease of use and modularity. The dashboard leverages Dash’s capabilities for web deployment, either locally or on the cloud, and provides intuitive usability without requiring Python proficiency. The modular design on frontend and backend allows for future updates to the segmentation pipeline, permitting an easy integration of other open-source or in-house AI models. Overall, our product supports long-term maintenance, reduces operational cost and case turnaround times.\nHowever, the dashboard does have limitations compared to the existing platforms like 3D Slicer. Main limitations come from the lack of built-in annotation features, measurement tools, and volumetric analysis functions. Furthermore, the quality of segmentation is entirely dependent on the performance of the AI model, with no interface to adjust inference parameters. While the TotalSegmentation shows 0.94 DICE score for adults, inference on the pediatric bones could be less precise. Manual corrections or enhancements therefore are needed, and will need to be done externally outside of our product’s interface. While adding annotation and volumetric analysis features is feasible in future iterations, incorporating 3D STL reconstruction from annotated regions may present challenges due to limitations in the Plotly rendering architecture, particularly in preserving mesh integrity and resolution during dynamic interactions."
+  },
+  {
+    "objectID": "portfolio/projects/medicalsegmentation.html#produc-overview",
+    "href": "portfolio/projects/medicalsegmentation.html#produc-overview",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "",
+    "text": "Automated medical image segmentation dashboard - designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:\n\nUploading volumetric CT scans\nPreviewing 2D slices in medical standard “3-pane” view\nRunning AI segmentation model inference\nChecking quality of segmentation via mask overlay\nReconstructing 3D STL object\nDownloading desired segments with reporting and dashboard state metadata\nReproducing results by re-uploading past segmentations\n\n\n\n\nDashboard main segmentation tab layout\n\n\nOne of the key strengths of our products is its ease of use and modularity. The dashboard leverages Dash’s capabilities for web deployment, either locally or on the cloud, and provides intuitive usability without requiring Python proficiency. The modular design on frontend and backend allows for future updates to the segmentation pipeline, permitting an easy integration of other open-source or in-house AI models. Overall, our product supports long-term maintenance, reduces operational cost and case turnaround times.\nHowever, the dashboard does have limitations compared to the existing platforms like 3D Slicer. Main limitations come from the lack of built-in annotation features, measurement tools, and volumetric analysis functions. Furthermore, the quality of segmentation is entirely dependent on the performance of the AI model, with no interface to adjust inference parameters. While the TotalSegmentation shows 0.94 DICE score for adults, inference on the pediatric bones could be less precise. Manual corrections or enhancements therefore are needed, and will need to be done externally outside of our product’s interface. While adding annotation and volumetric analysis features is feasible in future iterations, incorporating 3D STL reconstruction from annotated regions may present challenges due to limitations in the Plotly rendering architecture, particularly in preserving mesh integrity and resolution during dynamic interactions."
+  },
+  {
+    "objectID": "portfolio/projects/medicalsegmentation.html#design-considerations",
+    "href": "portfolio/projects/medicalsegmentation.html#design-considerations",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "Design Considerations",
+    "text": "Design Considerations\nA central design choice was the adoption of a 4-pane layout that mirrors the standard way of viewing medical images. Three of the panes (bottom left, bottom right, and top right) display 2D slices in axial, coronal, and sagittal views, while the top left pane shows the reconstructed 3D object. To maximize workspace, the instruction panel on the left is collapsible via a hamburger button (top left), allowing the 4-pane view to occupy the full screen, aiding a more focused clinical review.\nAnother design consideration was to include restriction of viewing segmentation overlays (in green) for one bone class at a time, in order to prevent visual clutter, and maximize interpretability of the segmentation quality on a per-bone basis. The overlay opacity is controlled by a slider in the “Settings” tab. The “Reduce mesh by” parameter controls the resolution complexity of the 3D figure, reducing the number of faces, which is useful for minimizing file size or preparing the mesh for rapid prototyping. The “Smooth surface” parameter enables control over the interpolation of voxel boundaries, allowing for smoother and more anatomically realistic surfaces.\nSince generation of the 3D STL output is a bit of a manual process - the engineers must decide how to “connect” individual voxels in the 3D space by a mesh - we included two key adjustable parameters, also found in the “Settings tab”.\n\n\n\nDashboard settings tab with mask opacity and STL parameter settings\n\n\nReproducibility was another critical design element for clinical context usability. Therefore, we added a separate “Reload” tab to allow users to reload past segmentation results, reinstating the dashboard, thus enabling result validation and creating an audit trail. The “Reload” tab mirrors the main “Segment” tab layout, reinforcing interface consistency."
+  },
+  {
+    "objectID": "portfolio/projects/medicalsegmentation.html#attributions",
+    "href": "portfolio/projects/medicalsegmentation.html#attributions",
+    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
+    "section": "Attributions",
+    "text": "Attributions\n\nThis Project was in partnership with BC Children’s Hospital Digital Lab.\nData: Wasserthal, J., Breit, H.-C., Meyer, M.T., Pradella, M., Hinck, D., Sauter, A.W., Heye, T., Boll, D., Cyriac, J., Yang, S., Bach, M., Segeroth, M., 2023. TotalSegmentator: Robust Segmentation of 104 Anatomic Structures in CT Images. Radiology: Artificial Intelligence. https://doi.org/10.1148/ryai.230024"
   },
   {
     "objectID": "portfolio/projects/airbnb.html#project-overview",
@@ -56,108 +154,52 @@
     "text": "Contributors\nDaria Khon, Farhan Bin Faisal, Brian Chang, Jay Mangat"
   },
   {
-    "objectID": "portfolio/projects/medicalsegmentation.html",
-    "href": "portfolio/projects/medicalsegmentation.html",
-    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
-    "section": "",
-    "text": "Automated medical image segmentation dashboard - designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:\n\nUploading volumetric CT scans\nPreviewing 2D slices in medical standard “3-pane” view\nRunning AI segmentation model inference\nChecking quality of segmentation via mask overlay\nReconstructing 3D STL object\nDownloading desired segments with reporting and dashboard state metadata\nReproducing results by re-uploading past segmentations\n\n\n\n\nDashboard main segmentation tab layout\n\n\nOne of the key strengths of our products is its ease of use and modularity. The dashboard leverages Dash’s capabilities for web deployment, either locally or on the cloud, and provides intuitive usability without requiring Python proficiency. The modular design on frontend and backend allows for future updates to the segmentation pipeline, permitting an easy integration of other open-source or in-house AI models. Overall, our product supports long-term maintenance, reduces operational cost and case turnaround times.\nHowever, the dashboard does have limitations compared to the existing platforms like 3D Slicer. Main limitations come from the lack of built-in annotation features, measurement tools, and volumetric analysis functions. Furthermore, the quality of segmentation is entirely dependent on the performance of the AI model, with no interface to adjust inference parameters. While the TotalSegmentation shows 0.94 DICE score for adults, inference on the pediatric bones could be less precise. Manual corrections or enhancements therefore are needed, and will need to be done externally outside of our product’s interface. While adding annotation and volumetric analysis features is feasible in future iterations, incorporating 3D STL reconstruction from annotated regions may present challenges due to limitations in the Plotly rendering architecture, particularly in preserving mesh integrity and resolution during dynamic interactions."
-  },
-  {
-    "objectID": "portfolio/projects/medicalsegmentation.html#produc-overview",
-    "href": "portfolio/projects/medicalsegmentation.html#produc-overview",
-    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
-    "section": "",
-    "text": "Automated medical image segmentation dashboard - designed to integrate seamlessly into a clinical engineer’s workflow for performing and evaluating semantic bone segmentations. The dashboard includes intuitive interface for the following components:\n\nUploading volumetric CT scans\nPreviewing 2D slices in medical standard “3-pane” view\nRunning AI segmentation model inference\nChecking quality of segmentation via mask overlay\nReconstructing 3D STL object\nDownloading desired segments with reporting and dashboard state metadata\nReproducing results by re-uploading past segmentations\n\n\n\n\nDashboard main segmentation tab layout\n\n\nOne of the key strengths of our products is its ease of use and modularity. The dashboard leverages Dash’s capabilities for web deployment, either locally or on the cloud, and provides intuitive usability without requiring Python proficiency. The modular design on frontend and backend allows for future updates to the segmentation pipeline, permitting an easy integration of other open-source or in-house AI models. Overall, our product supports long-term maintenance, reduces operational cost and case turnaround times.\nHowever, the dashboard does have limitations compared to the existing platforms like 3D Slicer. Main limitations come from the lack of built-in annotation features, measurement tools, and volumetric analysis functions. Furthermore, the quality of segmentation is entirely dependent on the performance of the AI model, with no interface to adjust inference parameters. While the TotalSegmentation shows 0.94 DICE score for adults, inference on the pediatric bones could be less precise. Manual corrections or enhancements therefore are needed, and will need to be done externally outside of our product’s interface. While adding annotation and volumetric analysis features is feasible in future iterations, incorporating 3D STL reconstruction from annotated regions may present challenges due to limitations in the Plotly rendering architecture, particularly in preserving mesh integrity and resolution during dynamic interactions."
-  },
-  {
-    "objectID": "portfolio/projects/medicalsegmentation.html#design-considerations",
-    "href": "portfolio/projects/medicalsegmentation.html#design-considerations",
-    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
-    "section": "Design Considerations",
-    "text": "Design Considerations\nA central design choice was the adoption of a 4-pane layout that mirrors the standard way of viewing medical images. Three of the panes (bottom left, bottom right, and top right) display 2D slices in axial, coronal, and sagittal views, while the top left pane shows the reconstructed 3D object. To maximize workspace, the instruction panel on the left is collapsible via a hamburger button (top left), allowing the 4-pane view to occupy the full screen, aiding a more focused clinical review.\nAnother design consideration was to include restriction of viewing segmentation overlays (in green) for one bone class at a time, in order to prevent visual clutter, and maximize interpretability of the segmentation quality on a per-bone basis. The overlay opacity is controlled by a slider in the “Settings” tab. The “Reduce mesh by” parameter controls the resolution complexity of the 3D figure, reducing the number of faces, which is useful for minimizing file size or preparing the mesh for rapid prototyping. The “Smooth surface” parameter enables control over the interpolation of voxel boundaries, allowing for smoother and more anatomically realistic surfaces.\nSince generation of the 3D STL output is a bit of a manual process - the engineers must decide how to “connect” individual voxels in the 3D space by a mesh - we included two key adjustable parameters, also found in the “Settings tab”.\n\n\n\nDashboard settings tab with mask opacity and STL parameter settings\n\n\nReproducibility was another critical design element for clinical context usability. Therefore, we added a separate “Reload” tab to allow users to reload past segmentation results, reinstating the dashboard, thus enabling result validation and creating an audit trail. The “Reload” tab mirrors the main “Segment” tab layout, reinforcing interface consistency."
-  },
-  {
-    "objectID": "portfolio/projects/medicalsegmentation.html#attributions",
-    "href": "portfolio/projects/medicalsegmentation.html#attributions",
-    "title": "Automated Medical Image Segmentation for Orthopedic Surgery",
-    "section": "Attributions",
-    "text": "Attributions\n\nThis Project was in partnership with BC Children’s Hospital Digital Lab.\nData: Wasserthal, J., Breit, H.-C., Meyer, M.T., Pradella, M., Hinck, D., Sauter, A.W., Heye, T., Boll, D., Cyriac, J., Yang, S., Bach, M., Segeroth, M., 2023. TotalSegmentator: Robust Segmentation of 104 Anatomic Structures in CT Images. Radiology: Artificial Intelligence. https://doi.org/10.1148/ryai.230024"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Daria Khon",
-    "section": "",
-    "text": "Taking the complex and making it routine\nI am a data scientist with a background in chemical engineering & operations management in biotech. I buil practical and scalable tools for scientific teams to move faster and smarter.\nDeploying AI models | Building scalable systems | Streamlining product launches\nExplore My Portfolio Contact\n\n\n\nData Scientist | The Digital Lab, BC Children’s Hospital\nSr. Program Associate | STEMCELL Technologies\nOperations Coordinator | STEMCELL Technologies\n\n\n\n\n\nMaster of Data Science | Univesity of British Columbia\nBachelor of Applied Sciences, Chemical Engineering | University of British Columbia"
-  },
-  {
-    "objectID": "index.html#hello-im-daria",
-    "href": "index.html#hello-im-daria",
-    "title": "Daria Khon",
-    "section": "",
-    "text": "Taking the complex and making it routine\nI am a data scientist with a background in chemical engineering & operations management in biotech. I buil practical and scalable tools for scientific teams to move faster and smarter.\nDeploying AI models | Building scalable systems | Streamlining product launches\nExplore My Portfolio Contact\n\n\n\nData Scientist | The Digital Lab, BC Children’s Hospital\nSr. Program Associate | STEMCELL Technologies\nOperations Coordinator | STEMCELL Technologies\n\n\n\n\n\nMaster of Data Science | Univesity of British Columbia\nBachelor of Applied Sciences, Chemical Engineering | University of British Columbia"
-  },
-  {
-    "objectID": "index.html#what-i-bring-to-the-table",
-    "href": "index.html#what-i-bring-to-the-table",
-    "title": "Daria Khon",
-    "section": "What I Bring to the Table",
-    "text": "What I Bring to the Table\n\n\nCritical Thinking & Fast Learning\nI adapt quickly in fast-paced environments and pick up complex technical skills with speed.\nDelivered Impact\n\nTranslated complex clinical workflows into a practical automated medical image segmentation tool - completed in 2 months with 94% inference accuracy, 3D visualization, and cloud deployment. Read more here\n\n\n\nOperational Problem-Solving with Business Impact\nI thrive at identifying bottlenecks and translating chaos into structured systems.\nDelivered Impact\n\nLaunched company-wide programs for regulated change control that centralized data management, improved cross-functional transparency, and strengthened regulatory data integrity across multiple departments.\n\n\n\nCross-Functional Communication\nI bridge gaps between technical and non-technical teams to turn ideas into delivered solutions.\nDelivered Impact\n\nLiaised with R&D, QA, and Sales teams to translate complex requirements into delivered custom life science products - aligning technical feasibility with business needs.\n\n\n\nReliable Execution\nI build reproducible, maintainable, and operationally ready tools.\nDelivered Impact:\n\nDeployed production ready machine learning powered dashboard, reproduced via Docker container and training documentations."
-  },
-  {
-    "objectID": "portfolio/projects/wine.html#contributors",
-    "href": "portfolio/projects/wine.html#contributors",
-    "title": "Wine Chromatic Profile Classification",
+    "objectID": "portfolio/projects/goodreads.html#contributors",
+    "href": "portfolio/projects/goodreads.html#contributors",
+    "title": "Goodreads Data Analytics",
     "section": "Contributors",
-    "text": "Contributors\nDaria Khon, Farhan Bin Faisal, Adrian Leung, Zhiwei Zhang"
+    "text": "Contributors\nDaria Khon"
   },
   {
-    "objectID": "portfolio/projects/pharmaspend.html#about",
-    "href": "portfolio/projects/pharmaspend.html#about",
-    "title": "Pharmaceutical Spending Dashboard",
-    "section": "About",
-    "text": "About\nWe created an intuitive tool to help healthcare policy administrators across the world to make knowlegeable decisions around drug price policies. This dashboard takes in the scattered worldwide information and presents it as a decision-ready intelligence for daily decision-making.\nThis project is based on Kaggle Pharmaceutical Drug Spending by countries data set, which originated from Organisation for Economic Co-operation and Development (OECD) collected data. With the data capped at 2016, this dashboard architechture can be easily integrated into a new data set."
+    "objectID": "portfolio/projects/saaschurn.html#data-source",
+    "href": "portfolio/projects/saaschurn.html#data-source",
+    "title": "SaaS Retention & Churn Analysis - Business Report",
+    "section": "Data Source",
+    "text": "Data Source\nThe data used is a combination of SaaS subscription dataset sourced from Kaggle, enriched by two additional synthetic datasetes to mimic a real SaaS environment. Rather than working solely with CSV files, I designed a PostgreSQL database in pgAdmin to simulate an operational data store.\n\nSchema design: Defined customers, subscriptions, and invoices tables with primary keys and relationships, reflecting common SaaS data models.\nData Integrity: Enforced typing and column normalization (e.g., lower snake_case naming convention) to align with production-ready best practices.\nStorage & monitoring: Using pgAdmin allowed me to write raw SQL queries, validate cohorts directly in SQL, and monitor data health before pulling into Python for analysis.\n\nThis setup was done with a purpos to enforce end-to-end ownership: from raw data ingestion to structured relational storage, ensuring queries scale and analysis is reproducible."
   },
   {
-    "objectID": "portfolio/projects/pharmaspend.html#dashboard-overview",
-    "href": "portfolio/projects/pharmaspend.html#dashboard-overview",
-    "title": "Pharmaceutical Spending Dashboard",
-    "section": "Dashboard Overview",
-    "text": "Dashboard Overview\nPharmaceutical Spending Dashboard is hosted on the Render platform, and can be accessed here\n\nComponents\n\nChoropleth Map (Top): Displays geographic distribution of spending.\nTime Series Chart (Bottom Left): Shows spending trends over time.\nBar Graph (Bottom Right): Breaks down overall spending by countries.\nSummary statistics\n\n\n\nInteractions\nThe user can customize the view of the dashboard by interacting with: - Global filters: Country and year selectors apply to all charts and summary statistics, keeping the dashboard focused on the selected region and time period. - Local filters: Radio buttons allow users to choose the specific spending metric they want to explore, which will apply to all charts. - All charts have tooltips to provide additional information about the data, which will be displayed upon hovering over the chart element of interest.\n\n\nDemo"
+    "objectID": "portfolio/projects/saaschurn.html#defined-kpis",
+    "href": "portfolio/projects/saaschurn.html#defined-kpis",
+    "title": "SaaS Retention & Churn Analysis - Business Report",
+    "section": "Defined KPIs",
+    "text": "Defined KPIs\nTo track the effectiveness of retention strategies, I defined and monitored the following key SaaS metrics that can be directly translated to real-world stakeholder reporting:\n\nMonthly Retention Rate = % of active users retained since signup\n\nChurn Rate = % of users lost each period"
   },
   {
-    "objectID": "portfolio/projects/pharmaspend.html#contributors",
-    "href": "portfolio/projects/pharmaspend.html#contributors",
-    "title": "Pharmaceutical Spending Dashboard",
-    "section": "Contributors",
-    "text": "Contributors\nJason Lee, Celine Habashy, Daria Khon, Catherine Meng"
+    "objectID": "portfolio/projects/saaschurn.html#data-pipeline",
+    "href": "portfolio/projects/saaschurn.html#data-pipeline",
+    "title": "SaaS Retention & Churn Analysis - Business Report",
+    "section": "Data Pipeline",
+    "text": "Data Pipeline\nThe project pipeline was intentionally modular to reflect real-world data workflows:\n\nIngest data into pgAdmin database data/.\nProcess with SQL queries for cohort-based retention metrics, ensuring transparency and reusability sql/.\nAnalyze & Vizualize Pulled SQL results into Jupyter Notebooks using Python for deeper aggregation, exploratory analysis, and business-ready visualization. notebooks/.\nPredictive Modeling: Trained an ensemble Random Forest churn prediction model to proactively flag at-risk subscribers with 98% recall score (recall was chosen as the key metric as falsely mislabelling a churned customer as non-churn carries higher risks for the business). src/.\nMonitoring: Pipeline montoring with evidently package to check for any feature distribution drifts, and other data anomalies as new data is ingested on a defined cadence. src/monitor.py\n\nRun the whole pipeline with ./run_pipeline.py"
   },
   {
-    "objectID": "portfolio/projects/salesanalyzer.html#about",
-    "href": "portfolio/projects/salesanalyzer.html#about",
-    "title": "salesanalyzer Python Package",
-    "section": "About",
-    "text": "About\nA Python package designed to simplify retail sales data analysis for small to medium-sized businesses. This tool offers a set of pre-built functions that make it easy to identify market segments, predict future sales, and analyze seasonal revenue trends."
+    "objectID": "portfolio/projects/saaschurn.html#average-retention-trend",
+    "href": "portfolio/projects/saaschurn.html#average-retention-trend",
+    "title": "SaaS Retention & Churn Analysis - Business Report",
+    "section": "Average Retention Trend",
+    "text": "Average Retention Trend\n\nRetention declines steeply in the first few months for each cohort, indicating that early churn is the biggest risk area. Cohorts follow a consistent downward trend: the largest drop occurs after the first month, stabilizing later. Because the data is synthetic, seasonal or external demand effects are not captured. In a real-world dataset I would opt in to visualize cohort month by month retention trends via a heatmap to zoom in on any hidden seasonal trend analytics."
   },
   {
-    "objectID": "portfolio/projects/salesanalyzer.html#why-salesanalyzer",
-    "href": "portfolio/projects/salesanalyzer.html#why-salesanalyzer",
-    "title": "salesanalyzer Python Package",
-    "section": "Why salesanalyzer?",
-    "text": "Why salesanalyzer?\nSmall to medium-sized businesses (SMBs) often lack the resources for in-house data teams or complex analytics tools. sales_analyzer is here to bridge that gap by providing easy-to-use, specialized functions that allow businesses to extract valuable insights from their sales data without requiring deep expertise in data science.\n\nKey Benefits:\n\nTailored for SMBs: No need for expensive or complex tools. Our package is designed specifically for small to medium-sized businesses to help them make data-driven decisions with ease.\nEasy-to-use functions: Simple, pre-built functions for common retail sales tasks so you can get started right away.\nCost-effective: Instead of hiring a full-time data analytics team or paying for expensive software, this package offers an affordable, one-stop solution to meet your business’s analytical needs.\nActionable Insights: Gain a better understanding of your market segments and sales trends, which can inform inventory management, marketing strategies, and customer outreach."
+    "objectID": "portfolio/projects/saaschurn.html#retention-curves-by-subscription-type",
+    "href": "portfolio/projects/saaschurn.html#retention-curves-by-subscription-type",
+    "title": "SaaS Retention & Churn Analysis - Business Report",
+    "section": "Retention Curves by Subscription Type",
+    "text": "Retention Curves by Subscription Type\nBasic\n\nWe can observe similar trend as per cohort general analytics. However, since the dataset is synthetic, curves across subscription tiers look very similar if not identical. In real-world data, Basic plans typically show the sharpest early churn, while Premium customers retain longer."
   },
   {
-    "objectID": "portfolio/projects/salesanalyzer.html#functions",
-    "href": "portfolio/projects/salesanalyzer.html#functions",
-    "title": "salesanalyzer Python Package",
-    "section": "Functions",
-    "text": "Functions\n\nsegment_revenue_share: Segments products into three categories: cheap, medium, expensive, based on price, and calculates their respective share in total revenue.\npredictSales: Predicts future sales based on the provided historical data and the target.\nsales_summary_statistics: Calculates a variety of summary statistics that provide insights into overall sales performance, customer behavior, and product performance."
-  },
-  {
-    "objectID": "portfolio/projects/salesanalyzer.html#contributors",
-    "href": "portfolio/projects/salesanalyzer.html#contributors",
-    "title": "salesanalyzer Python Package",
-    "section": "Contributors",
-    "text": "Contributors\nDaria Khon, Yeji Sogn, Franklin Aryee"
+    "objectID": "portfolio/projects/saaschurn.html#churn-distribution-by-support-calls",
+    "href": "portfolio/projects/saaschurn.html#churn-distribution-by-support-calls",
+    "title": "SaaS Retention & Churn Analysis - Business Report",
+    "section": "Churn Distribution by Support Calls",
+    "text": "Churn Distribution by Support Calls\n\nCustomers who churn make more support calls, suggesting friction or dissatisfaction is a churn driver. Median was plotted as the distribution of support calls feature is skewed.\nHowever, subscription type alone does not explain churn risk — behavioral signals like usage and support tickets could provide better insights into the state of the customer support operations."
   }
 ]

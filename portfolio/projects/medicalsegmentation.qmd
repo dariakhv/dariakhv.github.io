@@ -1,7 +1,7 @@
 ---
 title: "Automated Medical Image Segmentation for Orthopedic Surgery"
 date: "2025-06-26"
-categories: [semantic segmentation, unet, dash, gcp, Docker, Machine Learning]
+categories: [semantic segmentation, unet, dash, gcp, Docker, Machine Learning, pipeline]
 image: "img/segmentation.png"
 ---
 ## Produc Overview

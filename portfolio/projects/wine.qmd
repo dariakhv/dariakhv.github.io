@@ -1,7 +1,7 @@
 ---
 title: "Wine Chromatic Profile Classification"
 date: "2024-12-15"
-categories: [Docker, Machine Learning, Logistic Regression]
+categories: [Docker, Machine Learning, Logistic Regression, pipeline]
 image: "img/wine.png"
 ---
 [![](https://img.shields.io/badge/GitHub-%2312100E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/UBC-MDS/DSCI522-2425-22-wine-chromatic-profile)
